@@ -1,14 +1,14 @@
+from f import input
+from f import check0
+
 n = int(input())
 a=[]
-for i in range(n):
-    l = int(input())
-    a.append(l)
+
+input(n, a[])
 
 b = false
 
-for i in range(n):
-    if a[i] == 0:
-        b = true
+check0(b, a[])
 
 if b == true:
     print("yes")
